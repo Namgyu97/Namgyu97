@@ -50,9 +50,9 @@ education:
 
 experience:
 - name: The Catholic University of Korea
-   logo: /assets/images/badges/PKU_red.png
-   position: Lecturer
-   date: Mar. 2023 - Aug. 2024
+  logo: /assets/images/badges/PKU_red.png
+  position: Lecturer
+  date: Mar. 2023 - Aug. 2024
 
 #awards:
 #- name: Award Name 2
