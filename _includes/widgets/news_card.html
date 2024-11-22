@@ -13,7 +13,7 @@
                     <div>
                         <div>{{ item.title }}</div>
                         {% if item.organizer and item.period %}
-                        <div class="text-muted small">{{ item.organizer }} | {{ item.period }}</div>
+                        <div class="text-muted small">{{ item.organizer }}, {{ item.period }}</div>
                         {% endif %}
                     </div>
                     <div class="ml-auto mt-auto text-muted no-break"><i>{{ item.date | date: "%b %d" }}</i></div>
