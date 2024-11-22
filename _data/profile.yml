@@ -22,12 +22,10 @@ orcid: 0000-0001-8740-1760
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am a Ph.D. student in Computer Engineering at Gachon University, specializing in Knowledge Inference and Graph Representation.
-  </p>
-  <p>
-    My research focuses on video understanding.
-    I utilize scene and knowledge graphs to model semantic relationships and contextual dependencies.
-    I address challenges like data sparsity, domain variability, and scalability in dynamic environments, aiming to bridge the gap between low-level visual data and high-level semantic abstraction.
+    I am a Ph.D. student in Computer Engineering at Gachon University, specializing in Knowledge Inference, Graph Representation, and Explainable AI.
+    My research focuses on video understanding through scene and knowledge graphs to model semantic relationships and contextual dependencies.
+    I am particularly interested in explainable knowledge inference, striving to enhance transparency and interpretability in AI systems.
+    My work addresses challenges such as data sparsity, domain variability, and scalability, aiming to bridge the gap between low-level visual data and high-level semantic abstraction.
   </p>
   <p>
     I welcome collaboration with scholars and researchers in visual understanding.
