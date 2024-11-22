@@ -22,14 +22,14 @@ orcid: 0000-0001-8740-1760
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am a Ph.D. student in Computer Engineering at Gachon University, specializing in Knowledge Inference, Graph Representation, and Explainable AI.
-    My research focuses on video understanding through scene and knowledge graphs to model semantic relationships and contextual dependencies.
-    I am particularly interested in explainable knowledge inference, striving to enhance transparency and interpretability in AI systems.
-    My work addresses challenges such as data sparsity, domain variability, and scalability, aiming to bridge the gap between low-level visual data and high-level semantic abstraction.
+    I am a Ph.D. student in Computer Engineering at Gachon University under the supervision of Professor Chang Choi.
+    My research centers on Knowledge Inference, Graph Representation, and Explainable AI, specifically focusing on video understanding.
+    Currently, my research employs scene and knowledge graphs to model semantic relationships and contextual dependencies, advancing methodologies to enhance the transparency and interpretability of AI systems.
+    This research addresses critical challenges such as data sparsity, domain variability, and scalability, contributing to bridging the gap between low-level visual data and high-level semantic abstraction.
   </p>
   <p>
-    I welcome collaboration with scholars and researchers in visual understanding.
-    Please feel free to contact me about potential opportunities.
+    I am actively seeking opportunities for academic collaboration in visual understanding, knowledge inference, and related domains.
+    Please feel free to reach out to discuss potential research partnerships.
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
