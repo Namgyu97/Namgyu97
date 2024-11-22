@@ -18,6 +18,6 @@ authors:
   - O-Joun Lee
   - Chang Choi
 links:
+  Paper: https://doi.org/10.1109/jiot.2024.3365144
   Code: https://github.com/NSLab-CUK/Context-Aware-Residual-Transformer
-  DOI: https://doi.org/10.1109/jiot.2024.3365144
 ---
