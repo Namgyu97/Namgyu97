@@ -11,7 +11,7 @@ pub_date:       "2024"
 abstract: >-
   We propose a context-aware hyper-personalized recommendation system for kiosk IoT devices, addressing data imbalance across domains with an efficient self-supervised learning method.
   The system demonstrated a 20% improvement in performance metrics and an additional 0.8% gain with self-supervised learning, ensuring high-quality recommendations and optimal resource usage.
-cover:          /assets/images/covers/CART.jpg
+# cover:          /assets/images/covers/CART.jpg
 authors:
   - NamGyu Jung
   - Van Thuy Hoang
