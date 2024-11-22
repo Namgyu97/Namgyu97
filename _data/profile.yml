@@ -36,21 +36,21 @@ portrait_caption: >-
 
 education:
 - name: Gachon University
-  logo: /assets/images/badges/PKU_red.png
+  logo: /assets/images/badges/GCU_logo.png
   position: Ph.D. Student in Computer Engineering
   date: Mar. 2023 - present
 - name: Gachon University
-  logo: /assets/images/badges/PKU_red.png
+  logo: /assets/images/badges/GCU_logo.png
   position: M.S. in Computer Engineering
   date: Sep. 2021 - Feb. 2023
 - name: Gachon University
-  logo: /assets/images/badges/PKU_red.png
+  logo: /assets/images/badges/GCU_logo.png
   position: B.S. in Computer Engineering
   date: Mar. 2016 - Aug. 2021
 
 experience:
 - name: The Catholic University of Korea
-  logo: /assets/images/badges/PKU_red.png
+  logo: /assets/images/badges/CUK_logo.png
   position: Lecturer
   date: Mar. 2023 - Aug. 2024
 
