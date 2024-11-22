@@ -12,11 +12,8 @@
                 <div class="my-1 d-flex">
                     <div>
                         <div>{{ item.title }}</div>
-                        {% if item.period %}
-                        <div class="text-muted small">Period: {{ item.period }}</div>
-                        {% endif %}
-                        {% if item.organizer %}
-                        <div class="text-muted small">Organizer: {{ item.organizer }}</div>
+                        {% if item.organizer and item.period %}
+                        <div class="text-muted small">{{ item.organizer }} | {{ item.period }}</div>
                         {% endif %}
                     </div>
                     <div class="ml-auto mt-auto text-muted no-break"><i>{{ item.date | date: "%b %d" }}</i></div>
