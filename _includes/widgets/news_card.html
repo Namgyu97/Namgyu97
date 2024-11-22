@@ -10,7 +10,15 @@
             <div class="media-body">
                 {% for item in year.items %}
                 <div class="my-1 d-flex">
-                    <div>{{ item.title }}</div>
+                    <div>
+                        <div>{{ item.title }}</div>
+                        {% if item.period %}
+                        <div class="text-muted small">Period: {{ item.period }}</div>
+                        {% endif %}
+                        {% if item.organizer %}
+                        <div class="text-muted small">Organizer: {{ item.organizer }}</div>
+                        {% endif %}
+                    </div>
                     <div class="ml-auto mt-auto text-muted no-break"><i>{{ item.date | date: "%b %d" }}</i></div>
                 </div>
                 {% endfor %}
