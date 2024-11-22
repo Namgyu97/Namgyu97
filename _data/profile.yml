@@ -51,14 +51,14 @@ education:
 experience:
 - name: The Catholic University of Korea
   logo: /assets/images/badges/CUK_logo.png
-  position: Lecturer
+  position: Lecturer in AI Dept.
   date: Mar. 2023 - Aug. 2024
   courses:
-    - name: Introduction to Programming
+    - name: Discrete Mathematics for AI
       date: Spring 2023
-    - name: Data Structures and Algorithms
+    - name: Linear Algebra
       date: Fall 2023
-    - name: Artificial Intelligence Basics
+    - name: Algorithm
       date: Spring 2024
 
 #awards:
