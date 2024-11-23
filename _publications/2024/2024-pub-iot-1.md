@@ -6,7 +6,7 @@ pub:            "IEEE Internet of Things Journal"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
-pub_date:       "2024"
+pub_date:       "2024-02"
 percent:        3.4
 
 abstract: >-
