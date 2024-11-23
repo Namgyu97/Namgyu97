@@ -12,10 +12,14 @@
             <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
             <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
             <p class="mt-0 mb-0 small">
-                {{ item.pub_pre }}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}
                 {%- if item.percent -%}
-                <img src="https://img.shields.io/badge/-Top%20{{ item.percent | url_encode }}%25-brightgreen" alt="Top {{ item.percent }}%">
+                <strong>Top {{ item.percent }}%</strong>
                 {%- endif -%}
+                <i>{{ item.pub }}</i>, 
+                {% assign year = item.pub_date | slice: 0, 4 %}
+                {% assign month_number = item.pub_date | slice: 5, 2 %}
+                {% assign month_name = month_number | date: "%b" %}
+                {{ month_name }} {{ year }}
             </p>
             <p class="mt-0 mb-0 small text-muted">{{ item.abstract }}</p>
             
@@ -41,10 +45,14 @@
                 <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
                 <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
                 <p class="mt-0 mb-0 small">
-                    {{ item.pub_pre }}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}
                     {%- if item.percent -%}
-                    <img src="https://img.shields.io/badge/-Top%20{{ item.percent | url_encode }}%25-brightgreen" alt="Top {{ item.percent }}%">
+                    <strong>Top {{ item.percent }}%</strong>
                     {%- endif -%}
+                    <i>{{ item.pub }}</i>, 
+                    {% assign year = item.pub_date | slice: 0, 4 %}
+                    {% assign month_number = item.pub_date | slice: 5, 2 %}
+                    {% assign month_name = month_number | date: "%b" %}
+                    {{ month_name }} {{ year }}
                 </p>
                 <p class="mt-0 mb-0 small text-muted">{{ item.abstract }}</p>
                 
