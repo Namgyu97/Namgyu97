@@ -11,9 +11,9 @@
         <div class="col-md-9 col-xl-10 p-3 pl-md-0">
             <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
             <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
-            <p class="mt-0 mb-0 small" style="line-height: 1;">
+            <p class="mt-0 mb-0 small">
                 {%- if item.percent -%}
-                <img src="https://img.shields.io/badge/-Top%20{{ item.percent | url_encode }}%25-brightgreen" alt="Top {{ item.percent }}%" style="margin-right: 8px; vertical-align: middle;">
+                <img src="https://img.shields.io/badge/-Top%20{{ item.percent | url_encode }}%25-brightgreen" alt="Top {{ item.percent }}%" style="margin-right: 8px;">
                 {%- endif -%}
                 {{ item.pub_pre }}<i>{{ item.pub }}</i>{{ item.pub_post }}, {{ item.date | date: "%b %d"  }} {{ item.pub_last }}
             </p>
@@ -40,9 +40,9 @@
             <div>
                 <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
                 <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
-                <p class="mt-0 mb-0 small" style="line-height: 1;">
+                <p class="mt-0 mb-0 small">
                     {%- if item.percent -%}
-                    <img src="https://img.shields.io/badge/-Top%20{{ item.percent | url_encode }}%25-brightgreen" alt="Top {{ item.percent }}%" style="margin-right: 8px; vertical-align: middle;">
+                    <img src="https://img.shields.io/badge/-Top%20{{ item.percent | url_encode }}%25-brightgreen" alt="Top {{ item.percent }}%" style="margin-right: 8px;">
                     {%- endif -%}
                     {{ item.pub_pre }}<i>{{ item.pub }}</i>{{ item.pub_post }}, {{ item.date | date: "%b %d" }} {{ item.pub_last }}
                 </p>
