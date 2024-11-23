@@ -6,7 +6,7 @@ pub:            "International Conference on Research in Adaptive and Convergent
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
-pub_date:       "2023"
+pub_date:       "2023-08"
 
 abstract: >-
   We propose a multimodal fusion approach for news categorization, combining image and text data to enhance classification accuracy in digital journalism.
