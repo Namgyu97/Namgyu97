@@ -13,7 +13,7 @@
             <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
             <p class="mt-0 mb-0 small">
                 {%- if item.percent -%}
-                <strong>Top {{ item.percent }}%</strong>
+                <span class="badge badge-success">Top {{ item.percent }}%</span>
                 {%- endif -%}
                 <i>{{ item.pub }}</i>, 
                 {% assign year = item.pub_date | slice: 0, 4 %}
@@ -46,7 +46,7 @@
                 <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
                 <p class="mt-0 mb-0 small">
                     {%- if item.percent -%}
-                    <strong>Top {{ item.percent }}%</strong>
+                    <span class="badge badge-success">Top {{ item.percent }}%</span>
                     {%- endif -%}
                     <i>{{ item.pub }}</i>, 
                     {% assign year = item.pub_date | slice: 0, 4 %}
