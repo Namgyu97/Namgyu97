@@ -13,7 +13,7 @@
             <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
             <p class="mt-0 mb-0 small">
                 {%- if item.percent -%}
-                <img src="https://img.shields.io/badge/-Top%20{{ item.percent | url_encode }}%25-brightgreen" alt="Top {{ item.percent }}%" style="margin-right: 8px;">
+                <img src="https://img.shields.io/badge/-Top%20{{ item.percent | url_encode }}%25-brightgreen" alt="Top {{ item.percent }}%" style="margin-right: 8px; vertical-align: middle;">
                 {%- endif -%}
                 {{ item.pub_pre }}<i>{{ item.pub }}</i>{{ item.pub_post }}, {{ item.date | date: "%b %d"  }} {{ item.pub_last }}
             </p>
@@ -42,7 +42,7 @@
                 <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
                 <p class="mt-0 mb-0 small">
                     {%- if item.percent -%}
-                    <img src="https://img.shields.io/badge/-Top%20{{ item.percent | url_encode }}%25-brightgreen" alt="Top {{ item.percent }}%" style="margin-right: 8px;">
+                    <img src="https://img.shields.io/badge/-Top%20{{ item.percent | url_encode }}%25-brightgreen" alt="Top {{ item.percent }}%" style="margin-right: 8px; vertical-align: middle;">
                     {%- endif -%}
                     {{ item.pub_pre }}<i>{{ item.pub }}</i>{{ item.pub_post }}, {{ item.date | date: "%b %d" }} {{ item.pub_last }}
                 </p>
