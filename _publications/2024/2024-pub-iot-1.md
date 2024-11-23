@@ -7,6 +7,7 @@ pub:            "IEEE Internet of Things Journal"
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date:       "2024"
+percent:        3.4
 
 abstract: >-
   We propose a context-aware hyper-personalized recommendation system for kiosk IoT devices, addressing data imbalance across domains with an efficient self-supervised learning method.
