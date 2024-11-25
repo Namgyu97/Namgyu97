@@ -15,7 +15,7 @@
                 {%- if item.percent -%}
                 <img src="https://img.shields.io/badge/-Top%20{{ item.percent | url_encode }}%25-brightgreen" alt="Top {{ item.percent }}%" style="margin-right: 8px;">
                 {%- endif -%}
-                {{ item.pub_pre }}<i>{{ item.pub }}</i>, {{ item.pub_post }}, {% if not item.pub_pre and not item.pub_post %}{{ item.date | date: "%b %Y" }}{% endif %} {{ item.pub_last }}
+                {{ item.pub_pre }}<i>{{ item.pub }}</i>, {{ item.pub_post }}, {{ item.date | date: "%b %Y"  }} {{ item.pub_last }}
             </p>
             <p class="mt-0 mb-0 small text-muted">{{ item.abstract }}</p>
             
@@ -44,7 +44,7 @@
                     {%- if item.percent -%}
                     <img src="https://img.shields.io/badge/-Top%20{{ item.percent | url_encode }}%25-brightgreen" alt="Top {{ item.percent }}%" style="margin-right: 8px;">
                     {%- endif -%}
-                    {{ item.pub_pre }}<i>{{ item.pub }}</i>, {{ item.pub_post }}, {% if not item.pub_pre and not item.pub_post %}{{ item.date | date: "%b %Y" }}{% endif %} {{ item.pub_last }}
+                    {{ item.pub_pre }}<i>{{ item.pub }}</i>, {{ item.pub_post }}, {{ item.date | date: "%b %Y"  }} {{ item.pub_last }}
                 </p>
                 <p class="mt-0 mb-0 small text-muted">{{ item.abstract }}</p>
                 
