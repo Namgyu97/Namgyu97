@@ -1,12 +1,12 @@
 ---
 title:          "Kiosk Recommend System Based On Self-Supervised Representation Learning of User Behaviors in Offline Retail"
-date:           2024-02-13 00:01:00 +0800
+date:           2024-05-15 00:01:00 +0800
 selected:       true
 pub:            "IEEE Internet of Things Journal"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
-pub_date:       "2024-02"
+pub_date:       "2024-05"
 percent:        3.4
 
 abstract: >-
