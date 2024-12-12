@@ -1,0 +1,25 @@
+---
+title:          "Heterogeneous Semantic Projection Optimization for Thematic Depth in Homogeneous GNNs"
+date:           2025-12-12 00:01:00 +0800
+selected:       false
+revision:       true
+accepted:       false
+pub:            "Cognitive Computation"
+# pub_pre:        "Submitted to "
+# pub_post:       'Under review.'
+pub_post:       'Revision'
+# pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
+pub_date:       "2024-04"
+
+#abstract: >-
+#  We present a dual-stream model combining Conv1D with skip connections and modified GRUs, enhanced by Spatial and Soft Attention mechanisms, for electricity price forecasting.
+#  The model demonstrates superior performance, significantly reducing prediction errors across regions like New South Wales (69.33% MAE reduction) and Tasmania (16.18% MAE reduction).
+# cover:          /assets/images/covers/sac25.jpg
+authors:
+  - NamGyu Jung
+  - Angel Panizo-LLedot
+  - David Camacho
+  - Chang Choi
+links:
+  Paper: https://namgyu97.github.io/publications
+---
