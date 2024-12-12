@@ -8,9 +8,9 @@ pub:            "International Conference on Research in Adaptive and Convergent
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date:       "2023-08"
 
-abstract: >-
-  We propose a multimodal fusion approach for news categorization, combining image and text data to enhance classification accuracy in digital journalism.
-  Among the evaluated methods, early fusion achieved the best performance with 78.13% accuracy and an F1 score of 0.7810, demonstrating the effectiveness of integrating modalities.
+# abstract: >-
+#  We propose a multimodal fusion approach for news categorization, combining image and text data to enhance classification accuracy in digital journalism.
+#  Among the evaluated methods, early fusion achieved the best performance with 78.13% accuracy and an F1 score of 0.7810, demonstrating the effectiveness of integrating modalities.
 # cover:          /assets/images/covers/CART.jpg
 authors:
   - NamGyu Jung
