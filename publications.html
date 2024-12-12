@@ -6,8 +6,8 @@ body_attr: >-
   data-spy="scroll" data-target="#navbar-year" data-offset="100"
 ---
 
-{% assign revision_items = site.publications | "item.revision == true" %}
-{% assign pubs_by_year = site.publications | "item.revision != true" | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
+{% assign revision_items = site.publications | item.revision == true %}
+{% assign pubs_by_year = site.publications | item.revision != true | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
 
 <div class="row">
     <div class="col-12 col-lg-10">
