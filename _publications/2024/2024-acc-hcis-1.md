@@ -9,10 +9,10 @@ pub_post:       'Accepted'
 pub_date:       "2024-11"
 percent:        26.6
 
-abstract: >-
-  We propose KMG-InvAttack, a novel inversion attack scenario designed for ECG-based user authentication systems, capable of extracting 40% of private ECG information using only public data in a black-box environment.
-  This highlights significant vulnerabilities in such systems, with a 43.4% higher extraction rate than existing baselines, underscoring the need for enhanced privacy protection.
-# cover:          /assets/images/covers/CART.jpg
+#abstract: >-
+#  We propose KMG-InvAttack, a novel inversion attack scenario designed for ECG-based user authentication systems, capable of extracting 40% of private ECG information using only public data in a black-box environment.
+#  This highlights significant vulnerabilities in such systems, with a 43.4% higher extraction rate than existing baselines, underscoring the need for enhanced privacy protection.
+cover:          /assets/images/covers/CART.jpg
 authors:
   - NamGyu Jung
   - WooChan Choo
