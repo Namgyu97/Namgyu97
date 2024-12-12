@@ -9,9 +9,9 @@ pub_post:       'Accepted'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date:       "2024-04"
 
-abstract: >-
-  We present a dual-stream model combining Conv1D with skip connections and modified GRUs, enhanced by Spatial and Soft Attention mechanisms, for electricity price forecasting.
-  The model demonstrates superior performance, significantly reducing prediction errors across regions like New South Wales (69.33% MAE reduction) and Tasmania (16.18% MAE reduction).
+#abstract: >-
+#  We present a dual-stream model combining Conv1D with skip connections and modified GRUs, enhanced by Spatial and Soft Attention mechanisms, for electricity price forecasting.
+#  The model demonstrates superior performance, significantly reducing prediction errors across regions like New South Wales (69.33% MAE reduction) and Tasmania (16.18% MAE reduction).
 # cover:          /assets/images/covers/CART.jpg
 authors:
   - NamGyu Jung
