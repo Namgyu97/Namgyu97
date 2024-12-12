@@ -19,6 +19,6 @@ authors:
   - NamGyu Jung
   - Taimoor Khan
   - Chang Choi
-links:
-  Paper: https://namgyu97.github.io/publications
+#links:
+#  Paper: https://namgyu97.github.io/publications
 ---
