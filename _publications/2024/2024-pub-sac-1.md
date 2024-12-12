@@ -8,9 +8,9 @@ pub:            "ACM/SIGAPP Symposium on Applied Computing (SAC)"
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date:       "2024-05"
 
-abstract: >-
-  We present a lightweight transformer model with shared embeddings between encoders and decoders, designed to enhance efficiency and address expression imbalance in construction safety prediction.
-  The model reduces parameters by 48% compared to conventional transformers and improves performance by 4% over LSTM, enabling effective correlation analysis and deployment in edge computing environments.
+#abstract: >-
+#  We present a lightweight transformer model with shared embeddings between encoders and decoders, designed to enhance efficiency and address expression imbalance in construction safety prediction.
+#  The model reduces parameters by 48% compared to conventional transformers and improves performance by 4% over LSTM, enabling effective correlation analysis and deployment in edge computing environments.
 # cover:          /assets/images/covers/CART.jpg
 authors:
   - NamGyu Jung
