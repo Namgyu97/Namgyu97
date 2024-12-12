@@ -7,7 +7,8 @@ body_attr: >-
 ---
 
 {% assign revision_items = site.publications | where_exp: "item", "item.revision == true" %}
-{% assign pubs_by_year = site.publications | where_exp: "item", "item.revision != true" | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
+{% assign accepted_items = site.publications | where_exp: "item", "item.accepted == true" %}
+{% assign pubs_by_year = site.publications | where_exp: "item", "item.revision != true and item.accepted == true" | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
 
 <div class="row">
     <div class="col-12 col-lg-10">
@@ -19,7 +20,16 @@ body_attr: >-
           {% endfor %}
       </div>
       {% endif %}
-  
+
+      {% if accepted_items and accepted_items.size > 0 %}
+      <h4 class="pt-4" id="accepted-section">Accept or Online Publish</h2>
+      <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
+          {% for item in accepted_items %}
+              {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
+          {% endfor %}
+      </div>
+      {% endif %}
+      
       {% for year in pubs_by_year %}
       {% assign num_papers = year.items | size %}
       <h2 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h2>
