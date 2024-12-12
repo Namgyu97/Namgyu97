@@ -4,7 +4,7 @@ date:           2025-04-21 00:01:00 +0800
 selected:       true
 revision:       false
 accepted:       true
-pub:            "ACM/SIGAPP Symposium on Applied Computing (SAC)"
+pub:            "ACM/SIGAPP Symposium on Applied Computing (SAC-2025)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_post:       'Accepted'
