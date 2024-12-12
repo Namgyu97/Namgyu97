@@ -9,10 +9,10 @@ body_attr: >-
 {% assign revision_items = site.publications | where_exp: "item", "item.revision == true" %}
 {% assign accepted_items = site.publications | where_exp: "item", "item.accepted == true" %}
 {% assign pubs_by_year = site.publications 
-    | where_exp: 'item', '(item.revision == false) and (item.accepted == false)' 
-    | sort: "date" 
-    | reverse 
-    | group_by_exp: 'item', "item.date | date: '%Y'" %}
+   | where_exp: 'item', '(item.revision == false) and (item.accepted == false)' 
+   | sort: "date" 
+   | reverse 
+   | group_by_exp: 'item', 'item.date | date: "%Y"' %}
 
     <div class="col-12 col-lg-10">
       {% if revision_items and revision_items.size > 0 %}
