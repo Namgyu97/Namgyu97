@@ -2,6 +2,7 @@
 title:          "Vulnerability Assessment Method for an Enhanced User Authentication System based on ECG in the Critical Infrastructure Environment"
 date:           2024-11-25 00:01:00 +0800
 selected:       false
+revision:       false
 pub:            "Human-centric Computing and Information Sciences"
 # pub_pre:        "Submitted to "
 pub_post:       'Accepted'
