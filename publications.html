@@ -18,7 +18,7 @@ body_attr: >-
 <div class="row">
     <div class="col-12 col-lg-10">
       {% if revision_items and revision_items.size > 0 %}
-      <h6 class="pt-4" id="revision-section">Submit or Revision</h6>
+      <h5 class="pt-4" id="revision-section">Submit or Revision</h5>
       <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
           {% for item in revision_items %}
               {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
@@ -27,7 +27,7 @@ body_attr: >-
       {% endif %}
 
       {% if accepted_items and accepted_items.size > 0 %}
-      <h6 class="pt-4" id="accepted-section">Accept or Online Publish</h6>
+      <h5 class="pt-4" id="accepted-section">Accept or Online Publish</h5>
       <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
           {% for item in accepted_items %}
               {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
@@ -37,7 +37,7 @@ body_attr: >-
       
       {% for year in pubs_by_year %}
       {% assign num_papers = year.items | size %}
-      <h2 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h2>
+      <h5 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h5>
       <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
           {% for item in year.items %}
               {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
