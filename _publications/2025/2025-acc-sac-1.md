@@ -2,6 +2,8 @@
 title:          "An Attention-based Dual Stream Network for Efficient Electricity Price Forecasting"
 date:           2025-04-21 00:01:00 +0800
 selected:       true
+revision:       false
+accepted:       true
 pub:            "ACM/SIGAPP Symposium on Applied Computing (SAC)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
