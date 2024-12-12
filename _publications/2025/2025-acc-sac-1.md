@@ -6,6 +6,7 @@ pub:            "ACM/SIGAPP Symposium on Applied Computing (SAC)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 revision:       false
+accepted:       true
 pub_post:       'Accepted'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date:       "2024-04"
