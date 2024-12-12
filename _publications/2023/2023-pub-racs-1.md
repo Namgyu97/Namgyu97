@@ -3,6 +3,7 @@ title:          "News Category Classification via Multimodal Fusion Method"
 date:           2023-08-29 00:01:00 +0800
 selected:       false
 revision:       false
+accepted:       false
 pub:            "International Conference on Research in Adaptive and Convergent System (RACS)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
